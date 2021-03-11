@@ -1,10 +1,9 @@
 //
 //  CircleWaveView.swift
-//  delete_this
+//  brita_simulator
 //
 //  Created by Sebestyén Boglárka on 3/05/21.
 //
-
 import SwiftUI
 
 import AVFoundation
@@ -103,7 +102,7 @@ struct ContentView: View {
                        
                         //import CircleWaveView
                         CircleWaveView(percent: waterLevel, color: waterColor)
-                        
+
                         Spacer()
                     
                     //WATER % INDICATOR

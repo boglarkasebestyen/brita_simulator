@@ -10,11 +10,11 @@
 		070F5CB025FACD720098F6DD /* drip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 070F5CAD25FACD720098F6DD /* drip.mp3 */; };
 		070F5CB125FACD720098F6DD /* fill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 070F5CAE25FACD720098F6DD /* fill.mp3 */; };
 		070F5CB225FACD720098F6DD /* running_water.wav in Resources */ = {isa = PBXBuildFile; fileRef = 070F5CAF25FACD720098F6DD /* running_water.wav */; };
-		07AB7D2D25F9CF61007351AA /* CircleWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07AB7D2C25F9CF60007351AA /* CircleWaveView.swift */; };
 		07E6080925F2E03A00BBBE2A /* brita_simulatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E6080825F2E03A00BBBE2A /* brita_simulatorApp.swift */; };
 		07E6080B25F2E03A00BBBE2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E6080A25F2E03A00BBBE2A /* ContentView.swift */; };
 		07E6080D25F2E03C00BBBE2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E6080C25F2E03C00BBBE2A /* Assets.xcassets */; };
 		07E6081025F2E03C00BBBE2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07E6080F25F2E03C00BBBE2A /* Preview Assets.xcassets */; };
+		07FF230325FAD178009A4B69 /* CircleWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF230225FAD178009A4B69 /* CircleWaveView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,13 +22,13 @@
 		070F5CAD25FACD720098F6DD /* drip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = drip.mp3; path = brita_simulator/sounds/drip.mp3; sourceTree = "<group>"; };
 		070F5CAE25FACD720098F6DD /* fill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fill.mp3; path = brita_simulator/sounds/fill.mp3; sourceTree = "<group>"; };
 		070F5CAF25FACD720098F6DD /* running_water.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = running_water.wav; path = brita_simulator/sounds/running_water.wav; sourceTree = "<group>"; };
-		07AB7D2C25F9CF60007351AA /* CircleWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleWaveView.swift; path = ../../delete_this/delete_this/CircleWaveView.swift; sourceTree = "<group>"; };
 		07E6080525F2E03A00BBBE2A /* brita_simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = brita_simulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07E6080825F2E03A00BBBE2A /* brita_simulatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brita_simulatorApp.swift; sourceTree = "<group>"; };
 		07E6080A25F2E03A00BBBE2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		07E6080C25F2E03C00BBBE2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07E6080F25F2E03C00BBBE2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07E6081125F2E03C00BBBE2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07FF230225FAD178009A4B69 /* CircleWaveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleWaveView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +65,9 @@
 		07E6080725F2E03A00BBBE2A /* brita_simulator */ = {
 			isa = PBXGroup;
 			children = (
-				07E6080825F2E03A00BBBE2A /* brita_simulatorApp.swift */,
+				07FF230225FAD178009A4B69 /* CircleWaveView.swift */,
 				07E6080A25F2E03A00BBBE2A /* ContentView.swift */,
-				07AB7D2C25F9CF60007351AA /* CircleWaveView.swift */,
+				07E6080825F2E03A00BBBE2A /* brita_simulatorApp.swift */,
 				07E6080C25F2E03C00BBBE2A /* Assets.xcassets */,
 				07E6081125F2E03C00BBBE2A /* Info.plist */,
 				07E6080E25F2E03C00BBBE2A /* Preview Content */,
@@ -155,7 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07AB7D2D25F9CF61007351AA /* CircleWaveView.swift in Sources */,
+				07FF230325FAD178009A4B69 /* CircleWaveView.swift in Sources */,
 				07E6080B25F2E03A00BBBE2A /* ContentView.swift in Sources */,
 				07E6080925F2E03A00BBBE2A /* brita_simulatorApp.swift in Sources */,
 			);

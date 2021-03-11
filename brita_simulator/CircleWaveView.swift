@@ -1,10 +1,9 @@
 //
 //  CircleWaveView.swift
-//  delete_this
+//  brita_simulator
 //
 //  Created by Sebestyén Boglárka on 3/10/21.
 //
-
 import SwiftUI
 
 struct CircleWaveContentView: View {
@@ -13,8 +12,7 @@ struct CircleWaveContentView: View {
     
     var body: some View {
         VStack {
-            CircleWaveView(percent: Int(self.percent))
-            Slider(value: self.$percent, in: 0...100)
+            CircleWaveView(percent: Int(self.percent), color: Color(red: 0, green: 0.5, blue: 0.75, opacity: 0.5))
         }
         .padding(.all)
     }
@@ -66,7 +64,13 @@ struct CircleWaveView: View {
     
     @State private var waveOffset = Angle(degrees: 0)
     let percent: Int
-    
+    let color: Color
+
+    init(percent: Int, color: Color) {
+        self.percent = percent;
+        self.color = color;
+    }
+
     var body: some View {
 
         GeometryReader { geo in
@@ -78,12 +82,10 @@ struct CircleWaveView: View {
                     .overlay(
                         VStack {
                             Wave(offset: Angle(degrees: self.waveOffset.degrees), percent: Double(percent)/100)
-                                .fill(Color(red: 0, green: 0.5, blue: 0.75, opacity: 0.5))
+                                .fill(color)
                                 .frame(width: 105, height: 100)
                                 .clipShape(Rectangle().scale(1.0))
                             Spacer().frame(width: 105, height: 20, alignment: .bottom)
-                            
-                            
                         }, alignment: .bottom)
                 }
             }
@@ -98,6 +100,6 @@ struct CircleWaveView: View {
 
 struct CircleWaveContentView_Previews: PreviewProvider {
     static var previews: some View {
-        CircleWaveView(percent: 58)
+        CircleWaveView(percent: 58, color: Color(red: 0, green: 0.5, blue: 0.75, opacity: 0.5))
     }
 }
