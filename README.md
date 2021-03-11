@@ -13,7 +13,7 @@ This is my first SwiftUI app. After following along a tutorial, instead of finis
 * **"Fill tank"** button: fills the tank with water; water increases by both percentage and on the graphic image.
 * **Special features:** 
  1. At a random time interval, an alert warns the user to change the filter. The water turns brown until the filter is changed with the help of the **"Change filter"** button. The water percentage is reset to zero, the user must fill the tank again with water.
- 2. Bonus sound effects accommpanying the buttons.
+ 2. Bonus sound effects accompanying the buttons.
 
 ### Additional info
 * <div>Water filter icon made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
