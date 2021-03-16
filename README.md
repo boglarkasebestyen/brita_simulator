@@ -11,7 +11,9 @@ This is my first SwiftUI app. After following along a tutorial, instead of finis
 * By default, the pitcher is full, showing the water percentage at 100%.
 * **"Pour water"** button: the water will decrease by both percentage and on the graphic image.
 * **"Fill tank"** button: fills the tank with water; water increases by both percentage and on the graphic image.
-* **Special features:** 
+
+**Special features:** 
+
  1. At a random time interval, an alert warns the user to change the filter. The water turns brown until the filter is changed with the help of the **"Change filter"** button. The water percentage is reset to zero, the user must fill the tank again with water.
  2. Bonus sound effects accompanying the buttons.
 
@@ -20,6 +22,6 @@ This is my first SwiftUI app. After following along a tutorial, instead of finis
 * Sound source: [SampleSwap](https://sampleswap.org) and [Zapsplat](https://www.zapsplat.com)
 * App background image created on [Canva](https://www.canva.com/folder/all-designs)
 
-### Live demo
+### Video
 
-Video coming soon.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/omh7Ot5d7Cc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
