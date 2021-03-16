@@ -24,4 +24,4 @@ This is my first SwiftUI app. After following along a tutorial, instead of finis
 
 ### Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/omh7Ot5d7Cc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Brita Simulator Youtube video](https://img.youtube.com/vi/omh7Ot5d7Cc/0.jpg)](https://www.youtube.com/watch?v=omh7Ot5d7Cc)
