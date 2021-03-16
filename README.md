@@ -24,4 +24,6 @@ This is my first SwiftUI app. After following along a tutorial, instead of finis
 
 ### Video
 
+Click on the video below, it'll take you to a demo uploaded on Youtube.
+
 [![Brita Simulator Youtube video](https://img.youtube.com/vi/omh7Ot5d7Cc/0.jpg)](https://www.youtube.com/watch?v=omh7Ot5d7Cc)
