@@ -2,7 +2,7 @@
 
 ### A Brita simulator written in SwiftUI ![](https://static.gosquared.com/images/software/logo_integ_swift_01.png)
 
-This is my first SwiftUI app. After following along a tutorial, instead of finishing off the course with a similar app that was already covered in the course, I became inspired to write one that simulates a Brita, or any other water pitcher. 
+This is my first SwiftUI app. After following along [a tutorial](https://learn.codewithchris.com/courses/start), instead of finishing off the course with a similar app that was already covered in the course, I became inspired to write one that simulates a Brita, or any other water pitcher. 
 
 ![](https://media.giphy.com/media/NaLazctnwt4XtUkkKl/giphy.gif)
 
